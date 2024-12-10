@@ -4,7 +4,7 @@ vCard - Personal Portfolio
 
 alt = Alex Jiménez
 Alex Jiménez
-Economis && Data Science student
+Economis & Data Science student
 
 Show Contacts
 
