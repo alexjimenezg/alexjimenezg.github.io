@@ -1,0 +1,27 @@
+<svg width="40" height="40" viewBox="0 0 22 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo con gradiente -->
+  <rect width="22" height="40" rx="3" fill="url(#backgroundGradient)"/>
+
+  <!-- Libro abierto -->
+  <path d="M4 28 L11 24 L18 28 L11 32 Z" fill="#FFDB6E" stroke="#FFFFFF" stroke-width="1"/>
+  <line x1="11" y1="24" x2="11" y2="32" stroke="#FFFFFF" stroke-width="0.5"/> <!-- Línea central del libro -->
+
+  <!-- Páginas adicionales -->
+  <path d="M4 28 Q7.5 26 11 28" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round"/>
+  <path d="M18 28 Q14.5 26 11 28" fill="none" stroke="#FFFFFF" stroke-width="0.5" stroke-linecap="round"/>
+
+  <!-- Símbolo de luz (aprendizaje) -->
+  <circle cx="11" cy="20" r="3" fill="#FFBC5E"/>
+  <line x1="11" y1="16" x2="11" y2="12" stroke="#FFFFFF" stroke-width="0.5"/> <!-- Rayo superior -->
+  <line x1="11" y1="24" x2="11" y2="28" stroke="#FFFFFF" stroke-width="0.5"/> <!-- Rayo inferior -->
+  <line x1="8" y1="20" x2="5" y2="20" stroke="#FFFFFF" stroke-width="0.5"/> <!-- Rayo izquierdo -->
+  <line x1="14" y1="20" x2="17" y2="20" stroke="#FFFFFF" stroke-width="0.5"/> <!-- Rayo derecho -->
+
+  <!-- Gradiente -->
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0" y1="0" x2="22" y2="40" gradientUnits="userSpaceOnUse">
+      <stop offset="0.259336" stop-color="#FFDB6E"/>
+      <stop offset="1" stop-color="#FFBC5E"/>
+    </linearGradient>
+  </defs>
+</svg>
